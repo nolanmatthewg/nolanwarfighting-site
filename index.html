@@ -4,65 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nolan Expeditionary Warfighting & Training</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #333;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Nolan Expeditionary Warfighting & Training</h1>
-            <p class="tagline">Lethality Wins</p>
-        </div>
-    </section>
-
-    <!-- Mission Section -->
-    <section class="mission">
-        <div class="container">
-            <p>Nolan Warfighting seeks to equip today's warfighter with tomorrow's technology, under the strict goal of enhancing lethality across all vectors. In a constantly evolving battle space, one thing remains timeless: lethality.</p>
-            <p>Situational awareness, rapid decision making, and adaptability reign supreme. From AI-driven training simulations to interoperable battle systems, we deliver solutions designed for the modern fight.</p>
-        </div>
-    </section>
-
-    <!-- Image Section -->
-    <section class="founder-image">
-        <div class="container">
-            <img src="https://img1.wsimg.com/isteam/ip/568e002e-0c59-4149-b3c4-948fb51f8a5f/1000w_q95.jpg" alt="Co-founder Matthew Nolan training Canadian light infantry in Hawaii, 2014">
-            <p class="caption">Co-founder Matthew Nolan (0311, USMC) training Canadian light infantry in live fire and maneuver tactics. Hawaii, 2014.</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <a href="mailto:matthew@nolanwarfighting.com">matthew@nolanwarfighting.com</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>Copyright &copy; 2026 Nolan Expeditionary Warfighting & Training - All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Cookie Banner -->
-    <div class="cookie-banner" id="cookieBanner">
-        <p>This website uses cookies. By continuing to use this site, you accept our use of cookies.</p>
-        <button onclick="acceptCookies()">Accept</button>
-    </div>
-
-    <script>
-        function acceptCookies() {
-            document.getElementById('cookieBanner').style.display = 'none';
-            localStorage.setItem('cookiesAccepted', 'true');
-        }
-        if (localStorage.getItem('cookiesAccepted')) {
-            document.getElementById('cookieBanner').style.display = 'none';
-        }
-    </script>
+    <img src="images/hero.png" alt="Nolan Expeditionary Warfighting & Training - Lethality Wins">
+    <img src="images/content.png" alt="Our Mission and Contact">
 </body>
 </html>
